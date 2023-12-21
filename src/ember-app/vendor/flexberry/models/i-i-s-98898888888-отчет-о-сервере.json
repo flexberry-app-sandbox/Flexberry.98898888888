@@ -1,0 +1,69 @@
+﻿{
+  "name": "IIS98898888888ОтчетОСервере",
+  "modelName": "i-i-s-98898888888-отчет-о-сервере",
+  "className": "ОтчетОСервере",
+  "nameSpace": "IIS.98898888888",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "режим",
+      "type": "i-i-s-98898888888-режим-сервера",
+      "flexberryType": "РежимСервера",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расположение",
+      "relatedTo": "i-i-s-98898888888-расположение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сервер",
+      "relatedTo": "i-i-s-98898888888-сервер",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетОСервереE",
+      "modelName": "i-i-s-98898888888-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтчетОСервереL",
+      "modelName": "i-i-s-98898888888-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

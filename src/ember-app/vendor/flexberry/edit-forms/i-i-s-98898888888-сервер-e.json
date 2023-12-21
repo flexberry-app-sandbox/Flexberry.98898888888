@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сервер",
+  "name": "IIS98898888888СерверE",
+  "className": "СерверE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-98898888888-сервер",
+      "modelProjection": "СерверE"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+﻿{
+  "name": "IIS98898888888Сервер",
+  "modelName": "i-i-s-98898888888-сервер",
+  "className": "Сервер",
+  "nameSpace": "IIS.98898888888",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iP",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "порт",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "протокол",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-98898888888-сотрудник",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "программы",
+      "relatedTo": "i-i-s-98898888888-программы",
+      "inverse": "сервер"
+    },
+    {
+      "name": "настройки",
+      "relatedTo": "i-i-s-98898888888-настройки",
+      "inverse": "сервер"
+    }
+  ],
+  "projections": [
+    {
+      "name": "СерверE",
+      "modelName": "i-i-s-98898888888-сервер",
+      "attrs": [
+        {
+          "name": "протокол",
+          "caption": "Протокол",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "iP",
+          "caption": "IP",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "порт",
+          "caption": "Порт",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СерверL",
+      "modelName": "i-i-s-98898888888-сервер",
+      "attrs": [
+        {
+          "name": "протокол",
+          "caption": "Протокол",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "iP",
+          "caption": "IP",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "порт",
+          "caption": "Порт",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

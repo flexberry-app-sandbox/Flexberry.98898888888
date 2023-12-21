@@ -1,0 +1,66 @@
+﻿{
+  "applicationCaption": "98898888888",
+  "applicationTitle": "98898888888",
+  "items": [
+    {
+      "link": null,
+      "menuName": "курсовая",
+      "caption": "Курсовая",
+      "title": "Курсовая",
+      "children": [
+        {
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-98898888888-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-98898888888-должность-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "сервера",
+          "caption": "Сервера",
+          "title": "Сервера",
+          "children": [
+            {
+              "link": "i-i-s-98898888888-расположение-l",
+              "menuName": null,
+              "caption": "Расположение",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-98898888888-сервер-l",
+              "menuName": null,
+              "caption": "Сервер",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-98898888888-отчет-о-сервере-l",
+              "menuName": null,
+              "caption": "Отчет о сервере",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

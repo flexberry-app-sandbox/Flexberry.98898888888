@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-98898888888-сервер-e",
+  "editForm": "i-i-s-98898888888-сервер-e",
+  "external": false,
+  "caption": "Сервер",
+  "name": "IIS98898888888СерверL",
+  "className": "СерверL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-98898888888-сервер",
+      "modelProjection": "СерверL"
+    }
+  ]
+}
